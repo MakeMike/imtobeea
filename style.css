@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Fredoka&family=Lato:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Quicksand:wght@400;500&family=Roboto+Mono:wght@200&family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&family=Ubuntu:wght@300&display=swap');
+
+.act{
+	white-space: pre-wrap;
+}
+#fonts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sizef{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.main{
+  background-color: white;
+  color: black;
+}
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  /* 
+  font-family: 'Akshar', sans-serif;
+  font-family: 'Fredoka', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Ubuntu', sans-serif; */
+}
+.ncon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+
+.book{
+	margin: 50px;
+	max-width: 1000px;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.in{
+  width: 75%;
+  margin: 10px;
+}
+
+h1{
+	text-align: center;
+}
+.skip{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Nav Bar */
+.topnav {
+  overflow: hidden;
+  background-color: whitesmoke;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+
+.active {
+  background-color: whitesmoke;
+}
+.burger{
+	height: 25px;
+}
+.burger {
+  text-decoration: none;
+  color: white;
+}
+.burger:link, .burger:visited {
+  color: white;
+}
+.burger:hover {
+  color: white;
+}
+.home{
+	color: black;
+  text-decoration: none;
+}
+.home:visited{
+	color: black;
+}
+.icon{
+	color: white;
+}
+.icon:hover{
+	color: white;
+}
+#light{
+  visibility: hidden;
+}
